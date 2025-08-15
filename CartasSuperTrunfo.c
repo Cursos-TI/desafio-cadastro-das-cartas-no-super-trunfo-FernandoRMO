@@ -7,34 +7,33 @@
 
 int main() {
     //Variáveis:
-    char nome[20];
+    char nome[20], codigo[20];
     char estado;
-    char codigo[3];
-    int populacao;
-    int pontosTuristicos;
-    float area;
-    float pib;
+    int populacao, pontos;
+    float area, pib;
 
     //Pergunta as informaçôes da primeira carta do usuario.
     printf("Digite o nome da sua cidade: ");
-    scanf("%s\n", nome);
+    scanf("%s", nome);
 
     printf("Digite o estado da sua cidade: ");
-    scanf("%c\n", &estado);
+    scanf("%c ", &estado);
 
     printf("Digite código da sua cidade: ");
-    scanf("%s\n", codigo);
+    scanf("%s ", codigo);
 
     printf("Digite a populção da sua cidade: ");
-    scanf("%d\n", &populacao);
+    scanf("%d ", &populacao);
 
-    printf("Digite quantos pontos turísticos a sua cidade tem: ");
-    scanf("%d\n", &pontosTuristicos);
+     printf("Digite quantos pontos turísticos a sua cidade tem: ");
+    scanf("%d ", &pontos);
 
     printf("Digite a Área da sua cidade: ");
-    scanf("%f\n", &area);
+    scanf("%f ", &area);
 
     printf("Digite o PIB da sua cidade: ");
-    scanf("%f\n", &pib);
+    scanf("%f ", &pib);
+
     return 0;
+
 }
