@@ -61,7 +61,7 @@ printf("Carta 2: \n");
     printf("Digite o PIB da sua cidade: ");
     scanf("%f ", &pib2);
 
-    //Aqui mostrará o resultado da primeira carta.
+    //Aqui mostrará as informações da primeira carta.
 printf("\n");
 
     printf("Informações \n");
@@ -84,7 +84,7 @@ printf("\n");
 
     printf("PIB: %f\n", pib);
 
-    //Aqui mostrará os resultados da segunda carta.
+    //Aqui mostrará as informações da segunda carta.
 
     return 0;
 
