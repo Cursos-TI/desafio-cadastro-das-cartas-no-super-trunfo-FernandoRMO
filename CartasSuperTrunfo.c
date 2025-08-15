@@ -64,7 +64,7 @@ printf("Carta 2: \n");
     //Aqui mostrará o resultado da primeira carta.
 printf("\n");
 
-    printf("Resultados \n");
+    printf("Informações \n");
 
     printf("\n");
 
