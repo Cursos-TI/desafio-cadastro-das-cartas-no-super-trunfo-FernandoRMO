@@ -105,5 +105,4 @@ printf("\n");
     printf("PIB: %f\n", pib2);
 
     return 0;
-
 }
